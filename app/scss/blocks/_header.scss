@@ -1,0 +1,17 @@
+.header_main{
+    min-height: 303px;
+    background: url(../../images/main_bg_mini.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &_top{
+        padding-top: 18px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+.nav_main{
+    background: $colorBase;
+    box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.06);
+}

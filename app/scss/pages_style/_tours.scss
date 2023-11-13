@@ -1,0 +1,75 @@
+.tours{
+    margin-top: 41px;
+    &__content{
+        padding: 25px 46px 27px;
+        @include bgBlock;
+    }
+    &__title, &__subtitle{
+        @include titleStyle;
+    }
+    &__text-first, &__text-second{
+        @include styleText3;
+    }
+    &__text-first{
+        margin-top: 20px;
+    }
+    &__text-second{
+        margin-top: 41px;
+    }
+    &__subtitle{
+        margin-top: 36px;
+    }
+    &__items{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 19px;
+    }
+    &__item{
+        @include bgArticle;
+        display: flex;
+        gap: 24px;
+        &_img{
+            width: 265px;
+            height: 160px;  
+            border-radius: 10px;
+        }
+        &_block{
+            padding: 21px 0 27px;
+            width: 775px;
+            display: flex;
+           justify-content: space-between;
+        }
+        &_left{
+            max-width: 229px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &_title{
+            @include itemTitleStyle;
+        }
+        &_btn{
+            display: block;
+            padding: 11px 0;
+            max-width: 229px;
+            @include btn;
+            color: $colorBase;
+            text-align: justify;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+        }
+        &_right{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &_data, &_price{
+            display: flex;
+            align-items: center;
+            gap: 21px;
+            @include itemTitleStyle;
+        }
+    }
+}

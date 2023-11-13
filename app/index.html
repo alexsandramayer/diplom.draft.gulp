@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header container_main">
+            <div class="header__top">
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="#">О клубе</a></li>
+                        <li><a class="menu__link" href="training.html">Обучение</a></li>   
+                        <li><a class="menu__link" href="shop_catalog.html">Снаряжение</a></li>    
+                        <li><a class="menu__link" href="tours.html">Туры</a></li>    
+                        <li><a class="menu__link" href="#">Акции</a></li>    
+                        <li><a class="menu__link" href="#">Отзывы</a></li>    
+                        <li><a class="menu__link" href="contacts.html">Контакты</a></li>   
+                    </ul>
+                </nav>
+                <div class="social__block">
+                    <button class="callback">Обратный звонок</button>
+                    <div class="social__pages">
+                        <div class="social__link">
+                            <a href="#">
+                                <svg fill="none" viewBox="0 0 26 26" id="main_header_vk" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#ha)"><path d="M16.664.25H8.836C1.69.25 0 1.942 0 9.086v7.828c0 7.144 1.692 8.836 8.836 8.836h7.828c7.144 0 8.836-1.692 8.836-8.836V9.086C25.5 1.94 23.79.25 16.664.25zm3.923 18.193h-1.853c-.701 0-.918-.558-2.178-1.835-1.098-1.062-1.583-1.206-1.853-1.206-.378 0-.487.109-.487.63v1.674c0 .45-.143.72-1.331.72-1.961 0-4.14-1.188-5.668-3.402-2.304-3.238-2.935-5.668-2.935-6.172 0-.27.108-.522.63-.522h1.853c.467 0 .648.216.829.72.917 2.645 2.447 4.967 3.077 4.967.233 0 .342-.109.342-.701v-2.737c-.072-1.26-.739-1.368-.739-1.817 0-.217.181-.433.468-.433h2.915c.397 0 .54.216.54.683v3.69c0 .396.18.54.288.54.234 0 .433-.144.864-.576 1.332-1.494 2.285-3.797 2.285-3.797.127-.27.342-.522.811-.522h1.853c.558 0 .684.287.558.684-.234 1.08-2.501 4.282-2.501 4.282-.198.324-.27.468 0 .83.197.27.845.827 1.278 1.33.791.9 1.402 1.656 1.565 2.179.18.52-.09.79-.612.79l.001.001z" fill="#fff"/></g><defs><clipPath id="ha"><path fill="#fff" transform="translate(0 .25)" d="M0 0h25.5v25.5H0z"/></clipPath></defs></svg>
+                            </a>
+                        </div>
+                        <div class="social__link">
+                            <a href="#">
+                                <svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_4226_815)"><path d="M12.747 8.498a4.26 4.26 0 00-4.252 4.252 4.26 4.26 0 004.252 4.252 4.26 4.26 0 004.251-4.252 4.26 4.26 0 00-4.251-4.252zm12.752 4.252c0-1.76.016-3.505-.083-5.263-.1-2.041-.565-3.853-2.058-5.346C21.862.645 20.054.183 18.013.084 16.252-.015 14.507 0 12.75 0c-1.76 0-3.506-.016-5.263.083-2.041.1-3.853.565-5.347 2.057C.645 3.637.183 5.446.084 7.487-.015 9.247 0 10.992 0 12.75s-.016 3.505.083 5.263c.099 2.041.564 3.853 2.057 5.346 1.496 1.496 3.305 1.958 5.346 2.057 1.76.099 3.505.083 5.263.083 1.76 0 3.505.016 5.263-.083 2.04-.099 3.853-.564 5.345-2.057 1.496-1.496 1.959-3.305 2.058-5.346.102-1.758.083-3.502.083-5.263zm-12.752 6.542a6.533 6.533 0 01-6.542-6.542 6.533 6.533 0 016.542-6.542 6.533 6.533 0 016.541 6.542 6.533 6.533 0 01-6.541 6.542zm6.81-11.824a1.526 1.526 0 01-1.528-1.528c0-.845.682-1.528 1.527-1.528a1.526 1.526 0 011.412 2.113 1.526 1.526 0 01-1.412.943z" fill="#fff"/></g><defs><clipPath id="clip0_4226_815"><path fill="#fff" d="M0 0h25.5v25.5H0z"/></clipPath></defs></svg>
+                            </a>
+                        </div>
+                        <div class="social__link">
+                            <a href="#">
+                                <svg fill="none" viewBox="0 0 26 26" id="main_header_facebook" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#fa)"><path d="M20.719.25c1.317 0 2.443.468 3.378 1.403S25.5 3.714 25.5 5.03v15.94c0 1.317-.468 2.443-1.403 3.378s-2.061 1.403-3.378 1.403h-3.121v-9.878H20.9l.498-3.851h-3.801V9.563c0-.62.13-1.084.39-1.394.26-.31.766-.465 1.519-.465l2.025-.016V4.25c-.697-.1-1.682-.15-2.955-.15-1.505 0-2.709.443-3.61 1.329-.903.885-1.354 2.136-1.354 3.752v2.838h-3.32v3.852h3.32v9.878H4.781c-1.317 0-2.443-.468-3.378-1.403S0 22.286 0 20.97V5.03c0-1.317.468-2.443 1.403-3.378S3.464.25 4.78.25h15.94z" fill="#fff"/></g><defs><clipPath id="fa"><path fill="#fff" transform="translate(0 .25)" d="M0 0h25.5v25.5H0z"/></clipPath></defs></svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="logo__big">    
+                <a href="index.html"><img src="images/logo.svg" alt=""></a>
+            </div>
+            <div class="header__content">
+                <div class="header__info">
+                    <div class="header__info_descr">
+                        Путешествие в тысячу миль 
+                        <span>Начинается с первого клика</span>
+                    </div>
+                    <button class="header__info_btn">Хочу нырять...</button>
+                    <div class="header__items">
+                        <div class="header__item">
+                            <svg width="18" height="20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2_60)"><path d="M0 18.125C0 19.16.864 20 1.929 20H16.07c1.066 0 1.93-.84 1.93-1.875V7.5H0v10.625zm12.857-7.656c0-.258.217-.469.482-.469h1.607c.266 0 .483.21.483.469v1.562a.477.477 0 01-.483.469H13.34a.477.477 0 01-.482-.469V10.47zm0 5c0-.258.217-.469.482-.469h1.607c.266 0 .483.21.483.469v1.562a.477.477 0 01-.483.469H13.34a.477.477 0 01-.482-.469V15.47zm-5.143-5c0-.258.217-.469.482-.469h1.608c.265 0 .482.21.482.469v1.562a.477.477 0 01-.482.469H8.196a.477.477 0 01-.482-.469V10.47zm0 5c0-.258.217-.469.482-.469h1.608c.265 0 .482.21.482.469v1.562a.477.477 0 01-.482.469H8.196a.477.477 0 01-.482-.469V15.47zm-5.143-5c0-.258.217-.469.483-.469H4.66c.265 0 .482.21.482.469v1.562a.477.477 0 01-.482.469H3.054a.477.477 0 01-.483-.469V10.47zm0 5c0-.258.217-.469.483-.469H4.66c.265 0 .482.21.482.469v1.562a.477.477 0 01-.482.469H3.054a.477.477 0 01-.483-.469V15.47zM16.071 2.5h-1.928V.625A.636.636 0 0013.5 0h-1.286a.636.636 0 00-.643.625V2.5H6.43V.625A.636.636 0 005.786 0H4.5a.636.636 0 00-.643.625V2.5H1.93C.864 2.5 0 3.34 0 4.375V6.25h18V4.375C18 3.34 17.136 2.5 16.071 2.5z" fill="#fff"/></g><defs><clipPath id="clip0_2_60"><path fill="#fff" d="M0 0h18v20H0z"/></clipPath></defs></svg>
+                            Работаем с 2009 года
+                        </div>
+                        <div class="header__item">
+                            <svg width="23" height="17" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_2_62)"><path d="M23 16.292a.676.676 0 01-.213.498.696.696 0 01-.506.21.696.696 0 01-.505-.21.676.676 0 01-.213-.498v-9.32l-7.93 3.919c-.598.295-1.31.442-2.133.442-.824 0-1.535-.147-2.134-.442L.876 6.707C.292 6.412 0 6.061 0 5.656c0-.406.292-.75.876-1.03L9.366.443C9.966.148 10.676 0 11.5 0c.824 0 1.535.148 2.134.443l8.49 4.183c.51.251.794.561.854.93.014.015.022.044.022.089v10.647zm-8.648-3.985l4.335-2.147v3.121c0 .635-.7 1.177-2.1 1.627-1.4.45-3.095.675-5.087.675-1.992 0-3.687-.225-5.087-.675-1.4-.45-2.1-.992-2.1-1.627v-3.12l4.334 2.146c.6.295 1.55.443 2.853.443 1.303 0 2.254-.148 2.852-.443z" fill="#fff"/></g><defs><clipPath id="clip0_2_62"><path fill="#fff" d="M0 0h23v17H0z"/></clipPath></defs></svg>
+                            Более 2500 учеников
+                        </div>
+                    </div>
+                </div>
+                <div class="header__articles">
+                    <div class="header__article">
+                        <div class="header__article_info">
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.9 2.217c-.833-.184-1.45-1.175-2.258-1.35-.809-.175-1.809.458-2.625.275a3.05 3.05 0 00-2.617.283l-.058 11.908-.175.834a2.504 2.504 0 001.908 2.983 2.506 2.506 0 002.975-1.908l.175-.834 4.942-10.841a3.024 3.024 0 00-2.267-1.35zm-4.475 12.666a.86.86 0 01-1.008.659.847.847 0 01-.659-1.017l.717-3.275a.834.834 0 011.642.283c0 .034-.009.059-.017.092l-.675 3.258zM8.1 16.95a3.906 3.906 0 01-.6-1.667L6.867 12.5c-.117-.442.141-.9.633-1.033a.67.67 0 01.183 0V2.025c-.758 0-1.666-.475-2.366-.308-.7.166-1.409 1.15-2.217 1.333A3.025 3.025 0 00.833 4.4l4.942 10.833.175.834a2.502 2.502 0 002.975 1.908h.083A3.94 3.94 0 018.1 16.95z" fill="#fff"/>
+                                
+                        </svg>
+                            <h3 class="header__article_subtitle">Доступный дайвинг</h3>
+                        </div>
+                        <div class="header__article_descr">Акции и горячие предложения на курсы обучения.</div>
+                        <a class="header__article_btn" href="#">Узнать больше</a>
+                        
+                    </div>
+                    <div class="header__article">
+                        <div class="header__article_info">
+                            
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <!-- <rect width="31px" height="32px" fill="#000" border-radius="7px" opacity="0.3"/> -->
+                                <path d="M12 3c5.5 0 10 3.58 10 8s-4.5 8-10 8c-1.24 0-2.43-.18-3.53-.5C5.55 21 2 21 2 21c2.33-2.33 2.7-3.9 2.75-4.5C3.05 15.07 2 13.13 2 11c0-4.42 4.5-8 10-8z" fill="#fff"/></svg>
+                            <h3 class="header__article_subtitle">Онлайн запись</h3>
+                        </div>
+                        <div class="header__article_descr">Оставьте свой вопрос, мы перезвоним
+                            и проконсультируем вас.</div>
+                        <a class="header__article_btn" href="#">Оставить вопрос</a>
+                    </div>
+                    <div class="header__article">
+                        <div class="header__article_info">
+                            <svg width="24" height="24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M14 2H7a2 2 0 00-2 2v14a2 2 0 002 2h3v3l2-1 2 1v-3h3a2 2 0 002-2V7l-5-5zm0 13v2l-2-1-2 1v-2l-2-1 2-1v-2l2 1 2-1v2l2 1-2 1zm-1-7V3.5L17.5 8H13z" fill="#fff"/></svg>
+                            <h3 class="header__article_subtitle">Сертификаты</h3>
+                        </div>
+                        <div class="header__article_descr">Дайвинг в подарок для ваших друзей и
+                            знакомых.</div>
+                        <a class="header__article_btn" href="certificate.html">Приобрести</a>
+                    </div>
+                </div>
+                
+            </div>
+            
+        </header>
+       
+        <div class="content">
+            <section class="diving__info container">
+                
+               <h3 class="section__subtitle">Обучение дайвингу в Москве</h3>
+               <h2 class="section__title">Дайвинг <span>в Москве</span></h2>
+               <div class="diving__info_descr">Добро пожаловать! На страницах нашего сайта вы найдете качественную, нужную информацию касаемо вашего увлечения. Более подробно о нас вам расскажут разделы нашего сайта, благодаря отзывам, отчетам, статьям вы познакомитесь с нами поближе, узнаете, что дайвинг в Москве это реальность. Много полезной информации вам предоставит социальный блог «Акватика» там же, вы можете размещать свои отчеты и отзывы о путешествиях, а так же находить новых друзей по увлечению. Для прямого общения он-лайн, приглашаем Вас на тематический форум и в соц сети, где "живут" участники клуба которые всегда рады новым знакомствам.</div>
+
+            </section>
+
+            <section class="hot__offers">
+                <div class="container">
+                    <h3 class="section__subtitle">Успей приобрести путевку</h3>
+                    <h2 class="section__title">Горячие <span>предложения</span></h2>  
+                    <div class="hot__offers_items">
+                        <div class="hot__offers_item">
+                            <img class="hot__offers_img" src="images/hotoffers_img.png" alt="hot offers image">
+                            <div class="hot__offers_content">
+                                <h4 class="hot__offers_title">Peak Perfomance Buoyancy</h4>
+                                <div class="hot__offers_descr">Курс мастерской плавучести Peak
+                                Perfomance Buoyancy.</div>
+                            </div>
+                            <a class="hot__offers_btn" href="#">Перейти</a>
+                        </div>
+                        <div class="hot__offers_item">
+                            <img class="hot__offers_img" src="images/hotoffers_img.png" alt="hot offers image">
+                            <div class="hot__offers_content">
+                                <h4 class="hot__offers_title">Peak Perfomance Buoyancy</h4>
+                                <div class="hot__offers_descr">Курс мастерской плавучести Peak
+                                Perfomance Buoyancy.</div>
+                            </div>
+                            <a class="hot__offers_btn" href="#">Перейти</a>
+                        </div>
+                        <div class="hot__offers_item">
+                            <img class="hot__offers_img" src="images/hotoffers_img.png" alt="hot offers image">
+                            <div class="hot__offers_content">
+                                <h4 class="hot__offers_title">Peak Perfomance Buoyancy</h4>
+                                <div class="hot__offers_descr">Курс мастерской плавучести Peak
+                                Perfomance Buoyancy.</div>
+                            </div>
+                            <a class="hot__offers_btn" href="#">Перейти</a>
+                        </div>
+                        <div class="hot__offers_item">
+                            <img class="hot__offers_img" src="images/hotoffers_img.png" alt="hot offers image">
+                            <div class="hot__offers_content">
+                                <h4 class="hot__offers_title">Peak Perfomance Buoyancy</h4>
+                                <div class="hot__offers_descr">Курс мастерской плавучести Peak
+                                Perfomance Buoyancy.</div>
+                            </div>
+                            <a class="hot__offers_btn" href="#">Перейти</a>
+                        </div>
+                    </div> 
+                    
+                </div> 
+            </section>
+
+            <section class="feedback">
+                <h3 class="section__subtitle section__subtitle_feedback ">Успей приобрести путевку</h3>
+                <h2 class="section__title section__title_feedback">Горячие предложения</h2>  
+            
+               <div class="feedback__slider">
+                    <!-- <div class="feedback__slider_wrapper">
+                        <div class="feedback_slide hide">
+                            <img class="feedback_slide_img" src="images/feedback_user.png" alt="user photo">
+                            <h2 class="feedback_slide_title">Валентин М.</h2>
+                            <div class="feedback_slide_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper justo nec arcu mollis, sed congue odio mollis. Donec feugiat pellentesque accumsan.</div>
+                        </div>
+                        <div class="feedback_slide prev">
+                            <img class="feedback_slide_img" src="images/feedback_user.png" alt="user photo">
+                            <h2 class="feedback_slide_title">Валентин М.</h2>
+                            <div class="feedback_slide_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper justo nec arcu mollis, sed congue odio mollis. Donec feugiat pellentesque accumsan.</div>
+                        </div>
+                        <div class="feedback_slide act">
+                            <img class="feedback_slide_img" src="images/feedback_user.png" alt="user photo">
+                            <h2 class="feedback_slide_title">Валентин М.</h2>
+                            <div class="feedback_slide_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper justo nec arcu mollis, sed congue odio mollis. Donec feugiat pellentesque accumsan.</div>
+                        </div>
+                        <div class="feedback_slide next">
+                            <img class="feedback_slide_img" src="images/feedback_user.png" alt="user photo">
+                            <h2 class="feedback_slide_title">Валентин М.</h2>
+                            <div class="feedback_slide_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper justo nec arcu mollis, sed congue odio mollis. Donec feugiat pellentesque accumsan.</div>
+                        </div>
+                        <div class="feedback_slide next new-next">
+                            <img class="feedback_slide_img" src="images/feedback_user.png" alt="user photo">
+                            <h2 class="feedback_slide_title">Валентин М.</h2>
+                            <div class="feedback_slide_descr">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed semper justo nec arcu mollis, sed congue odio mollis. Donec feugiat pellentesque accumsan.</div>
+                        </div>
+                        
+                    </div> -->
+                    <!-- <div class="swipe"></div> -->
+               </div>
+               
+            </section> 
+            
+            <div class="article article-first container">
+                Вы спросите, есть ли дайвинг в Москве? Ответ однозначный – да, есть! Акватика предлагает обучение, как в Москве, так и за рубежом. Приятнее учиться на море скажете вы! Наверное да, но обратите внимание на то, что многие клубы подводного плавания за рубежом могут не иметь Русскоговорящий персонал (инструкторов) квалификация тоже остается загадкой, к тому же вам придется тратить драгоценное время отпуска на изучение учебников, таблиц, отработку навыков, сдачу экзаменов. Не лучше ли пройти обучение рядом с домом в удобное время, и спокойной обстановке, с квалифицированными инструкторами, а во время долгожданного отпуска  наслаждаться всеми прелестями океана.
+            </div>
+
+            <section class="gallery">
+                <div class="container">
+                    <h3 class="section__subtitle">живые эмоции</h3>
+                    <h2 class="section__title">Наша <span> фото-галерея</span></h2> 
+                    <div class="gallery__items">
+                        <img class="gallery_img" src="images/gallery__img1.png" alt="gallery photo">
+                        <img class="gallery_img" src="images/gallery__img1.png" alt="gallery photo">
+                        <img class="gallery_img" src="images/gallery__img1.png" alt="gallery photo">
+                        <img class="gallery_img" src="images/gallery__img1.png" alt="gallery photo">
+                    </div>
+                    <div class="gallery__btn">Смотреть все фото</div>
+                </div>
+            </section>
+
+            <div class="article article-second container">
+                Подводное плавание – это истинное исцеление для каждого человека, меняющее приоритеты отдыха. Это возможность найти новые эмоции, завести знакомства с интересными людьми. Да,каждый человек к данному увлечению относится по своему, для многих этот мир выражает стремление к новому и прекрасному. Многие люди, увлечённые дайвингом с уверенностью скажут, что подводное плаванье – смело можно отнести к одному из лучших  увлечений! Оно позволяет почувствовать невесомость, насладиться самыми чудесными пейзажами, скрытыми от обычного поля зрения. Здесь каждый чувствует себя свободным, будто бы парящим над землёй. Сегодня, это доступно каждому, кто стремится познать новое, к общению и позитивным эмоциям. Это незабываемое ощущение надолго остается внутри и зовет обратно под воду.
+            </div>
+
+            <section class="blog__main">
+                <div class="container">
+                    <h3 class="section__subtitle">будь в курсе последних новостей</h3>
+                    <h2 class="section__title">Наш <span>блог</span></h2> 
+                    <div class="blog__main_items">
+                        <div class="blog__main_item">
+                            <img class="blog__main_img" src="images/hotoffers_img.png" alt="hot offers image">
+                            <div class="blog__main_content">
+                                <h4 class="hot__offers_title">Peak Perfomance Buoyancy</h4>
+                                <div class="blog__main_descr">Курс мастерской плавучести Peak
+                                Perfomance Buoyancy.</div>
+                            </div>
+                            <a class="blog__main_btn" href="blog.html">Перейти</a>
+                        </div>
+                        <div class="blog__main_item">
+                            <img class="blog__main_img" src="images/hotoffers_img.png" alt="hot offers image">
+                            <div class="blog__main_content">
+                                <h4 class="hot__offers_title">Peak Perfomance Buoyancy</h4>
+                                <div class="blog__main_descr">Курс мастерской плавучести Peak
+                                Perfomance Buoyancy.</div>
+                            </div>
+                            <a class="blog__main_btn" href="blog.html">Перейти</a>
+                        </div>
+                        <div class="blog__main_item">
+                            <img class="blog__main_img" src="images/hotoffers_img.png" alt="hot offers image">
+                            <div class="blog__main_content">
+                                <h4 class="hot__offers_title">Peak Perfomance Buoyancy</h4>
+                                <div class="blog__main_descr">Курс мастерской плавучести Peak
+                                Perfomance Buoyancy.</div>
+                            </div>
+                            <a class="blog__main_btn" href="blog.html">Перейти</a>
+                        </div>
+                        <div class="blog__main_item">
+                            <img class="blog__main_img" src="images/hotoffers_img.png" alt="hot offers image">
+                            <div class="blog__main_content">
+                                <h4 class="hot__offers_title">Peak Perfomance Buoyancy</h4>
+                                <div class="blog__main_descr">Курс мастерской плавучести Peak
+                                Perfomance Buoyancy.</div>
+                            </div>
+                            <a class="blog__main_btn" href="blog.html">Перейти</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <div class="article article-third container">
+                Вы когда-нибудь задумывались над тем, что океан является самой древней субстанцией, которая существует на планете? Разумеется,это не мыслящий Океан Станислава Лема под названием Солярис, но всё же, не вызывает сомнений,что зародилась жизнь именно в водных глубинах. Не важно, будь это дайвинг в Москве, Подмосковное озеро  или погружение на океанских просторах, каждый раз, когда человек готовится к погружению он испытывает волнение, которое вполне объяснимо. Водная гладь скрывает огромный потенциал, ведь она и является источником жизни. Океан манит, содержит огромное количество тайн и загадок. Достаточно только раз погрузиться под воду, и позитивные ощущения уже никогда не забудутся, они останутся навсегда, как часть самой жизни.
+            </div>
+
+            <section class="subscribe">
+                <div class="container">
+                    <h3 class="section__subtitle">ссылки на наши социальные сети</h3>
+                    <h2 class="section__title">Присоединяйся <span>к нам</span></h2> 
+                    <div class="subscribe__items">
+                        <div class="subscribe_item">
+                            <img class="subscribe_item_img" src="images/subscribe_vk.svg" alt="subscribe vk">
+                            <div class="subscribe_item_descr">уже более 5000 тысяч
+                                людей в курсе новостей</div>
+                            <a href="#" class="subscribe_item_btn">Присоединиться</a>
+                        </div>
+                        <div class="subscribe_item">
+                            <img class="subscribe_item_img" src="images/subscribe_facebook.svg" alt="subscribe facebook">
+                            <div class="subscribe_item_descr">уже более 5000 тысяч
+                                людей в курсе новостей</div>
+                            <a href="#" class="subscribe_item_btn">Присоединиться</a>
+                        </div>
+                        <div class="subscribe_item">
+                            <img class="subscribe_item_img" src="images/subscribe_forum.svg" alt="subscribe forum">
+                            <div class="subscribe_item_descr">уже более 5000 тысяч
+                                людей в курсе новостей</div>
+                            <a href="#" class="subscribe_item_btn">Присоединиться</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer class="footer">
+            <div class="footer__left">
+                <div class="logo__footer">    
+                    <a href="index.html"><img src="images/logo_footer.svg" alt=""></a>
+                </div>
+                <a class="footer__tel" href="tel:+74955456702">+7 (495) 545 67 02</a>
+                <a class="footer__email" href="mailto:scuba-divers@mail.ru">scuba-divers@mail.ru</a>
+
+            </div>
+            <div class="footer__right">
+                <nav class="menu menu__footer">
+                    <ul class="menu__list">
+                        <li><a class="menu__link" href="#">О клубе</a></li>
+                        <li><a class="menu__link" href="#">Обучение</a></li>   
+                        <li><a class="menu__link" href="shop_catalog.html">Снаряжение</a></li>    
+                        <li><a class="menu__link" href="#">Туры</a></li>    
+                        <li><a class="menu__link" href="#">Акции</a></li>    
+                        <li><a class="menu__link" href="#">Отзывы</a></li>    
+                        <li><a class="menu__link" href="#">Контакты</a></li>   
+                    </ul>
+                </nav>
+                
+                <div class="social__pages social__pages_footer">
+                    <div class="social__link">
+                        <a href="#">
+                            <svg fill="none" viewBox="0 0 26 26" id="main_header_vk" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#ha)"><path d="M16.664.25H8.836C1.69.25 0 1.942 0 9.086v7.828c0 7.144 1.692 8.836 8.836 8.836h7.828c7.144 0 8.836-1.692 8.836-8.836V9.086C25.5 1.94 23.79.25 16.664.25zm3.923 18.193h-1.853c-.701 0-.918-.558-2.178-1.835-1.098-1.062-1.583-1.206-1.853-1.206-.378 0-.487.109-.487.63v1.674c0 .45-.143.72-1.331.72-1.961 0-4.14-1.188-5.668-3.402-2.304-3.238-2.935-5.668-2.935-6.172 0-.27.108-.522.63-.522h1.853c.467 0 .648.216.829.72.917 2.645 2.447 4.967 3.077 4.967.233 0 .342-.109.342-.701v-2.737c-.072-1.26-.739-1.368-.739-1.817 0-.217.181-.433.468-.433h2.915c.397 0 .54.216.54.683v3.69c0 .396.18.54.288.54.234 0 .433-.144.864-.576 1.332-1.494 2.285-3.797 2.285-3.797.127-.27.342-.522.811-.522h1.853c.558 0 .684.287.558.684-.234 1.08-2.501 4.282-2.501 4.282-.198.324-.27.468 0 .83.197.27.845.827 1.278 1.33.791.9 1.402 1.656 1.565 2.179.18.52-.09.79-.612.79l.001.001z" fill="#fff"/></g><defs><clipPath id="ha"><path fill="#fff" transform="translate(0 .25)" d="M0 0h25.5v25.5H0z"/></clipPath></defs></svg>
+                        </a>
+                    </div>
+                    <div class="social__link">
+                        <a href="#">
+                            <svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#clip0_4226_815)"><path d="M12.747 8.498a4.26 4.26 0 00-4.252 4.252 4.26 4.26 0 004.252 4.252 4.26 4.26 0 004.251-4.252 4.26 4.26 0 00-4.251-4.252zm12.752 4.252c0-1.76.016-3.505-.083-5.263-.1-2.041-.565-3.853-2.058-5.346C21.862.645 20.054.183 18.013.084 16.252-.015 14.507 0 12.75 0c-1.76 0-3.506-.016-5.263.083-2.041.1-3.853.565-5.347 2.057C.645 3.637.183 5.446.084 7.487-.015 9.247 0 10.992 0 12.75s-.016 3.505.083 5.263c.099 2.041.564 3.853 2.057 5.346 1.496 1.496 3.305 1.958 5.346 2.057 1.76.099 3.505.083 5.263.083 1.76 0 3.505.016 5.263-.083 2.04-.099 3.853-.564 5.345-2.057 1.496-1.496 1.959-3.305 2.058-5.346.102-1.758.083-3.502.083-5.263zm-12.752 6.542a6.533 6.533 0 01-6.542-6.542 6.533 6.533 0 016.542-6.542 6.533 6.533 0 016.541 6.542 6.533 6.533 0 01-6.541 6.542zm6.81-11.824a1.526 1.526 0 01-1.528-1.528c0-.845.682-1.528 1.527-1.528a1.526 1.526 0 011.412 2.113 1.526 1.526 0 01-1.412.943z" fill="#fff"/></g><defs><clipPath id="clip0_4226_815"><path fill="#fff" d="M0 0h25.5v25.5H0z"/></clipPath></defs></svg>
+                        </a>
+                    </div>
+                    <div class="social__link">
+                        <a href="#">
+                            <svg fill="none" viewBox="0 0 26 26" id="main_header_facebook" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#fa)"><path d="M20.719.25c1.317 0 2.443.468 3.378 1.403S25.5 3.714 25.5 5.03v15.94c0 1.317-.468 2.443-1.403 3.378s-2.061 1.403-3.378 1.403h-3.121v-9.878H20.9l.498-3.851h-3.801V9.563c0-.62.13-1.084.39-1.394.26-.31.766-.465 1.519-.465l2.025-.016V4.25c-.697-.1-1.682-.15-2.955-.15-1.505 0-2.709.443-3.61 1.329-.903.885-1.354 2.136-1.354 3.752v2.838h-3.32v3.852h3.32v9.878H4.781c-1.317 0-2.443-.468-3.378-1.403S0 22.286 0 20.97V5.03c0-1.317.468-2.443 1.403-3.378S3.464.25 4.78.25h15.94z" fill="#fff"/></g><defs><clipPath id="fa"><path fill="#fff" transform="translate(0 .25)" d="M0 0h25.5v25.5H0z"/></clipPath></defs></svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer__descr">
+                    Все права защищены © 2010-2013
+                    Обучение дайвингу в Москве
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    
+
+
+
+    <!-- <script src="js/hamer.js"></script> -->
+    <script src="js/main.min.js"></script>
+    
+</body>
+</html>

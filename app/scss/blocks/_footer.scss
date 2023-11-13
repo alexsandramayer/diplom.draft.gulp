@@ -1,0 +1,51 @@
+.footer{
+    min-height: 275px;
+    margin-top: 77px;
+    padding: 100px 127px 29px 92px;
+    display: flex;
+    justify-content: space-between;
+    background: url(../../images/footer__bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    &__left{
+        display: flex;
+        flex-direction: column;
+    }
+    &__tel{
+        margin-top: 15px;
+        color: $colorBase;
+        font-size: 22px;
+        font-weight: 500;
+    }
+    &__email{
+        margin-top: 5px;
+        color: $colorBase;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    &__right{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    &__descr{
+        margin-top: 20px;
+        max-width: 196px;
+        color: $colorBase;
+        font-size: 12px;
+        font-weight: 400;
+    }
+}
+.footer-catalog{
+    margin-top: 72px;
+}
+.footer-category{
+    margin-top: 79px;
+}
+.footer__training{
+    margin-top: 53px;
+}
+.footer__blog{
+    margin-top: 73px;
+}

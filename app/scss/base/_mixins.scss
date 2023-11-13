@@ -1,0 +1,59 @@
+@mixin btn {
+    border-radius: 12px;
+    background: linear-gradient(180deg, $colorButton2 0%, $colorButton1 100%);
+    box-shadow: 0px 4px 10px 0px rgba(92, 194, 243, 0.25);
+    border: none;
+    outline: none;
+}
+@mixin bgBlock{
+    border-radius: 10px;
+    background: $colorBg;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+}
+@mixin paddingBlock{
+    margin-left: 20px;
+    margin-right: 19px;
+}
+@mixin bgArticle{
+    border-radius: 10px;
+    background: $colorBase;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.06);
+}
+@mixin paddingBlockCertificate{
+    margin-left: 12px;
+    margin-right: 10px;
+}
+
+@mixin titleStyle{
+    color: $colorTitleSubtitle;
+    font-size: 24px;
+    font-weight: 700;
+}
+@mixin itemTitleStyle{
+    color: $colorTitleSubtitle;
+    font-size: 18px;
+    font-weight: 500;
+}
+@mixin styleText{
+    color: $colorText;
+    font-size: 14px;
+    font-weight: 400;
+}
+@mixin styleText2{
+    color: $colorText;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+}
+@mixin styleText3{
+    color: $colorText;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 400;
+}
+@mixin styleSpanText{
+    color: $colorText;
+    text-align: justify;
+    font-size: 14px;
+    font-weight: 500;
+}

@@ -1,0 +1,49 @@
+.blog{
+    &__items{
+        margin-top: 39px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    &__item{
+        min-height: 162px;
+        @include bgBlock;
+        display: flex;
+        gap: 36px;
+        &_img{
+            width: 265px;
+            height: 160px;
+            border-radius: 10px;
+        }
+        &_block{
+            margin-top: 17px;
+            margin-bottom: 27px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        &_title{
+            color: $colorBase3;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        
+        &_btn{
+            display: block;
+            padding: 11px 0;
+            max-width: 229px;
+            @include btn;
+            color: $colorBase;
+            text-align: justify;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+        }
+        &_descr{
+            margin-top: 19px;
+            margin-bottom: 27px;
+            max-width: 503px;
+            @include styleText2;
+        }
+    }
+}

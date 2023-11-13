@@ -1,0 +1,61 @@
+.diving-price{
+    margin-top: 20px;
+    &__content{
+        padding: 25px 46px 38px;
+        @include bgBlock;
+    }
+    &__title{
+        @include titleStyle;
+    }
+    &__items{
+        margin-top: 23px;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+    &__item{
+        padding: 17px 36px 28px 39px;
+        @include bgArticle;
+        &__title{
+            @include itemTitleStyle;
+        }
+        &_block{
+            margin-top: 13px;
+            display: flex;
+            gap: 142px;
+        }
+        &_left{
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+        &_right{
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+        &_subtitle{
+            color: $colorText;
+            text-align: justify;
+            font-size: 16px;
+            font-weight: 500;
+        }
+        &_btn{
+            width: 229px;
+            padding: 11px;
+            @include btn;
+            color: $colorBase;;
+            text-align: justify;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+        }
+        &_descr, &_info{
+            @include styleText2;
+            span{
+                text-align: justify;
+                font-weight: 500;
+            }
+        }
+    }
+}

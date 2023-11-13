@@ -1,0 +1,47 @@
+@import 'base/mixins';
+@import 'base/variables';
+@import 'base/reset';
+@import 'base/fonts';
+@import 'base/general';
+
+@import 'blocks/header';
+@import 'blocks/subscribe';
+@import 'blocks/footer';
+@import 'blocks/feedback';
+
+@import 'pages_style/main';
+@import 'pages_style/shop_catalog';
+@import 'pages_style/shop_category';
+@import 'pages_style/training';
+@import 'pages_style/blog';
+@import 'pages_style/contacts';
+@import 'pages_style/tours';
+@import 'pages_style/course';
+@import 'pages_style/diving-price';
+@import 'pages_style/certificate';
+@import 'pages_style/tests';
+
+html,
+body {
+	height: 100%;
+}
+
+body{
+  font-family: "Roboto"; 
+  
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.content {
+	flex: 1 0 auto;
+}
+.footer {
+	flex: 0 0 auto;
+}
+
+
+

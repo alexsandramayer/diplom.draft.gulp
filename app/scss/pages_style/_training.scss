@@ -1,0 +1,226 @@
+.training{
+    &__buttons{
+        margin-top: 29px;
+        display: flex;
+        justify-content: space-between;
+    }
+    &__btn{
+        width: 580px;
+        height: 65px;
+        @include btn;
+        border: none;
+        outline: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        color: $colorBase;
+        text-align: justify;
+        font-family: Roboto;
+        font-size: 26px;
+        font-weight: 500;
+        svg{
+            width: 44px;
+            height: 44px
+        }
+    }
+    &__block{
+        margin-top: 38px;
+        padding: 23px 29px 37px 26px;
+        @include bgBlock;
+        &_subtitle{
+            padding-left: 20px;
+            color: $colorTitleSubtitle;
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            letter-spacing: 1.6px;
+            text-transform: uppercase;
+            opacity: 0.5;
+        }
+        &_title{
+            padding-left: 20px;
+            color: $colorBase3;
+            font-family: Roboto;
+            font-size: 42px;
+            font-weight: 700;
+        }
+        &_descr{
+            margin-top: 21px;
+            @include paddingBlock;
+            @include styleText3;
+            
+        }
+        &_line{
+            margin-top: 40px;
+            width: 1130px;
+            height: 1px;
+            opacity: 0.6;
+            background: $colorLine;
+        }
+    }
+    &__courses{
+        margin-top: 25px;
+        padding-top: 5px;
+        border-top: 1px solid rgba(196, 196, 196, 0.6);
+        @include paddingBlock;
+        &_title{
+            @include titleStyle;
+        }
+        &_items{
+            margin-top: 4px;
+        }
+        &_item{
+            margin-top: 27px;
+        }
+        &_subtitle{
+            color: #103A58;
+            font-family: Roboto;
+            font-size: 18px;
+            font-weight: 700;
+            opacity: 0.5;
+        }
+        &_links{
+            margin-top: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px 50px;
+            img{
+                width: 330px;
+                height: 202px;
+            }
+        }
+    }
+}
+.training__information{
+    margin-top: 13px;
+}
+.training__content{
+    padding: 23px 29px 39px 26px;
+    @include bgBlock;
+}
+.training__info{
+    &_title{
+        padding-left: 20px;
+        @include titleStyle;
+    }
+    &_descr{
+        margin-top: 21px;
+        @include paddingBlock;
+        @include styleText3;
+    }
+    &_articles{
+        margin-top: 26px;
+        margin-bottom: 23px;
+        border-top: 1px solid rgba(196, 196, 196, 0.6);
+        border-bottom: 1px solid rgba(196, 196, 196, 0.6);
+        padding-top: 26px;
+        padding-bottom: 23px;
+        @include paddingBlock;
+        display: flex;
+        gap: 74px;
+    }
+    
+}
+.training__article{
+    width: 158px;
+    height: 158px;
+    padding-top: 17px;
+    @include bgArticle;
+    position: relative;
+    &_img{
+        display: block;
+        margin: 0 auto;
+        width: 80px;
+        height: 80px;
+    }
+    &_title{
+        padding: 0 13px;
+        color: $colorBase3;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 500;
+        letter-spacing: 0.6px;
+        opacity: 0.3;
+    }
+   
+    &_link{
+        display: block;
+        width: 100%;
+        border-top: 1px solid $colorLine2;
+        position: absolute;
+        bottom: 0;
+        padding-top: 3px;
+        padding-bottom: 4px;
+        color: $colorButton2;
+        font-size: 12px;
+        font-weight: 500;
+        text-align: center;
+        letter-spacing: 0.6px;
+        &::after {
+            content: "\2794";
+            width: 7px;
+            height: 7px;
+            color: $colorButton2;
+            padding-left: 5px;
+            }
+    }
+}
+.training__gallery{
+    margin-top: 21px;
+    &_title{
+        @include paddingBlock;
+        @include titleStyle;
+    }
+    &_photos{
+        margin-top: 26px;
+        @include paddingBlock;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 26px 49px;
+    }
+    &_photo{
+        width: 330px;
+        height: 202px;
+        border-radius: 10px;
+    }
+}
+.training__padi{
+    margin-top: 21px;
+    border-top: 1px solid rgba(196, 196, 196, 0.6);
+    border-bottom: 1px solid rgba(196, 196, 196, 0.6);
+    padding-top: 24px;
+    padding-bottom: 40px;
+    @include paddingBlock;
+    &_title{
+        @include titleStyle;
+    }
+    &_text{
+        margin-top: 21px;
+        @include styleText3;
+        span{
+            @include styleSpanText;
+        }
+    }
+}
+.training__referral{
+    margin-top: 21px;
+    @include paddingBlock;
+    &_title{
+        @include titleStyle;
+    }
+    &_text{
+        margin-top: 21px;
+        @include styleText3;
+    }
+}
+.training__article_block{
+    margin-top: 25px;
+    border-radius: 10px;
+    border: 2px solid $colorButton2;
+    @include paddingBlock;
+    article{
+        padding: 30px 28px 24px;
+        @include styleText3;
+    }
+}

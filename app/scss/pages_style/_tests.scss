@@ -1,0 +1,49 @@
+.tests{
+    margin-top: 18px;
+    &__content{
+        padding: 27px 46px 35px 38px;
+        @include bgBlock;
+    }
+    &__title{
+        @include titleStyle;
+    }
+    &__items{
+        margin-top: 23px;
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+    }
+    &__item{
+        @include  bgArticle;
+        padding: 17px  49px 28px 39px;
+        display: flex;
+        gap: 99px;
+        &_block{
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+        &_title{
+           @include itemTitleStyle;
+        }
+        &_subtitle{
+            margin-top: 13px;
+            @include styleSpanText;
+        }
+        &_btn{
+            display: block;
+            width: 229px;
+            padding: 11px 0;
+            @include btn;
+            color: $colorBase;
+            text-align: justify;
+            font-size: 18px;
+            font-weight: 500;
+            text-align: center;
+        }
+        &_descr{
+            margin-top: 4px;
+            @include styleText3;
+        }
+    }
+}
